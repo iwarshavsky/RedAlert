@@ -1,0 +1,5 @@
+<fonts>
+    <font id="f1_small" filename="f1_small.fnt" />
+    <font id="f1_tiny" filename="f1_tiny.fnt" />
+    <font id="f1_alert" filename="f1_alert_normalized.fnt" />
+</fonts>

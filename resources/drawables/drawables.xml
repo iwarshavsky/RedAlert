@@ -1,0 +1,13 @@
+<drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <bitmap id="LauncherIcon" filename="siren_icon.svg" dithering="none" />
+    <drawable-list id="background_alert">
+        
+        <shape type="circle" x="center" y="center" radius="48%" color="Gfx.COLOR_RED" border_width="2" border_color="Gfx.COLOR_WHITE" />
+        <shape type="circle" x="center" y="center" radius="40%" color="Gfx.COLOR_WHITE" border_width="2" border_color="Gfx.COLOR_WHITE" />
+    </drawable-list>
+    <drawable-list id="background_message">
+        
+        <shape type="circle" x="center" y="center" radius="48%" color="Gfx.COLOR_BLUE" border_width="2" border_color="Gfx.COLOR_WHITE" />
+        <shape type="circle" x="center" y="center" radius="40%" color="Gfx.COLOR_WHITE" border_width="2" border_color="Gfx.COLOR_WHITE" />
+    </drawable-list>
+</drawables>

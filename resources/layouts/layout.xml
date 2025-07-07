@@ -1,0 +1,34 @@
+<layouts>
+<layout id="AlertLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <drawable id="background_alert"/>
+    <text-area id="alertTitle" width="90%" height="40%" font="@Fonts.f1_alert" x="center" y="20%" text="testHeader" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+    <text-area id="alertBody" width="90%" height="50%" x="center" y="45%" text="testBody" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER">
+    <fonts>
+        <font>@Fonts.f1_small</font>
+        <font>@Fonts.f1_tiny</font>
+    </fonts>
+    </text-area>
+</layout>
+<layout id="MessageLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <drawable id="background_message"/>
+    <text-area id="alertTitle" width="90%" height="100%" font="@Fonts.f1_alert" x="center" y="20%" text="testHeader" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+    <text-area id="alertBody" width="90%" height="50%" x="center" y="45%" text="testBody" color="Graphics.COLOR_BLACK" justification="Graphics.TEXT_JUSTIFY_VCENTER|Graphics.TEXT_JUSTIFY_CENTER">
+    <fonts>
+        <font>@Fonts.f1_small</font>
+        <font>@Fonts.f1_tiny</font>
+    </fonts>
+    </text-area>
+</layout>
+<layout id="LocationSearch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <text-area width="80%" height="80%" font="@Fonts.f1_small" x="center" y="40%" text="@Strings.mainPending" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+</layout>
+<layout id="NoBluetoothLayout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <text-area width="80%" height="80%" x="center" y="20%" text="@Strings.noBluetooth" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER">
+    <fonts>
+        <font>@Fonts.f1_small</font>
+        <font>@Fonts.f1_tiny</font>
+    </fonts>
+    </text-area>
+    <bitmap id="bluetoothIcon" filename="../drawables/bluetooth_icon.svg" dithering="none" x="center" y="70%" />
+</layout>
+</layouts>
