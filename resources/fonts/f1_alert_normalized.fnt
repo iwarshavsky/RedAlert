@@ -1,7 +1,7 @@
-info face="Segoe UI" size=50 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+info face="f1" size=50 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
 common lineHeight=41 base=31 scaleW=256 scaleH=256 pages=2 packed=0 alphaChnl=0 redChnl=0 greenChnl=0 blueChnl=0
-page id=0 file="segoe_alert_0.png"
-page id=1 file="segoe_alert_1.png"
+page id=0 file="f1_alert_0.png"
+page id=1 file="f1_alert_1.png"
 chars count=123
 char id=13   x=253   y=0     width=1     height=50    xoffset=0     yoffset=-9     xadvance=4     page=1  chnl=15
 char id=32   x=47    y=153   width=1     height=50    xoffset=0     yoffset=-9     xadvance=10    page=1  chnl=15
